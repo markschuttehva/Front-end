@@ -56,7 +56,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** <span style="color:red">Rood</span>
+**Je startniveau:** <span style="color:red">Rood</span><font color='red'>test blue color font</font>
 
 **Je focus:** Responsive
 
