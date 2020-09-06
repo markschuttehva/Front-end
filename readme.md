@@ -56,7 +56,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** <span style="color:red">Rood</span> **My Bold Text, in red color.**{: style="color: red; opacity: 0.80;" }
+**Je startniveau:** Rood
 
 **Je focus:** Responsive
 
