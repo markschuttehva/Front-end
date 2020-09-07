@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="images/favicon.png"/>
 	<title>Nintendo</title>
-	
+	<script src="scripts/script.js"></script>
 	<link href="styles/style.css" rel="stylesheet">
 </head>
 
@@ -21,27 +21,44 @@
 
 	</main>
 	<footer>
-		<img src="images/nintendowhite.png" alt="Nintendo Logo">
-		<a href="#countries">Land: Nederland</a>
-		<button>^</button>
-		<section class="countries">
+		<script>
+// //op het moment dat er iemand op het land klikt komen er meerdere landen te zien
+// function change() {
+// 	var land = document.getElementById('land'); //display section van landen
+// 	var knop = document.getElementById('knop'); //button
+// 		if (land.style.display == "block") {
+// 			land.style.display = "none"; 
+// 			knop.style.padding = "0em 1em 0.3em 1em";
+// 		} else {
+// 			land.style.display = "block";
+// 			knop.style.padding = "0em 1em 1.3em 1em";
+// 		}
+// };
+		</script>
+		<section class="head">
+			<img src="images/nintendowhite.png" alt="Nintendo Logo">
+		<a class="knop" id="knop" onclick="change();">Land: Nederland <img src="images/downarrow.png"></a>
+			<a href="#header" class="top"><img src="images/uparrow.png"></a>
+		</section>
+		<section class="land" id="land">
 			<h2>Ander land kiezen</h2>
-			<ul>
-				<li>België</li>
-				<li>Belgique</li>
-				<li>Deutschland</li>
-				<li>España</li>
-				<li>France</li>
-				<li>Italia</li>
-				<li>Nederland</li>
-				<li>Österreich</li>
-				<li>Portugal</li>
-				<li>Poccnr</li>
-				<li>Schweiz</li>
-				<li>Suisse</li>
-				<li>Svizzera</li>
-				<li>South Africa</li>
-				<li>UK & Ireland</li>
+			<hr>
+			<ul class="grid">
+				<li class="grid-item">België</li>
+				<li class="grid-item">Belgique</li>
+				<li class="grid-item">Deutschland</li>
+				<li class="grid-item">España</li>
+				<li class="grid-item">France</li>
+				<li class="grid-item">Italia</li>
+				<li class="grid-item">Nederland</li>
+				<li class="grid-item">Österreich</li>
+				<li class="grid-item">Portugal</li>
+				<li class="grid-item">Poccnr</li>
+				<li class="grid-item">Schweiz</li>
+				<li class="grid-item">Suisse</li>
+				<li class="grid-item">Svizzera</li>
+				<li class="grid-item">South Africa</li>
+				<li class="grid-item">UK & Ireland</li>
 			</ul>
 		</section>
 		<section class="footer">
