@@ -50,9 +50,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Verbeterpunten
+HTML
+Bovenste script javascript weghalen in head(is overbodig) x
+Namen classnames
+class footer veranderen
+class head veranderen
+Onclick veranderen x -> gebruik gemaakt van queryselector en addEventListener
 
-
+CSS (css linter)
+font-family naar body verplaatsen x
+xxl font-size veranderen naar em x
+small font-size x
+ticon en ficon verwijderen x
+footer 2x position x
 
 ## Intake (week 1)
 

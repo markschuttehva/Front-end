@@ -1,10 +1,36 @@
 /* CSS Document */
 *, *::after, *::before {
-  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   box-sizing:border-box;  
+  
 }
 
+body {
+  font-family: "Open Sans","Helvetica Neue",sans-serif;
+  background-color: #f4f4f4;
+}
+/* Header */
+
+header {
+  background-color: #e60012;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  min-height: 50px;
+  padding: 2.5em;
+  margin: -1em;
+}
+
+
 /* Main */
+main {
+  display: grid;
+}
+
+.uitgelicht {
+  padding: 1em;
+}
+
+
 .nieuws h2 {
 font-size: 1.6em;
 color: #333;
@@ -21,7 +47,7 @@ font-weight: 700;
 
 .delen h2 {
   display: inline;
-  font-size: xx-large;
+  font-size: 2em;
   font-weight: bold;
   margin-right: 1em;
 }
@@ -51,10 +77,6 @@ font-weight: 700;
   background-color: #3B5998;
 }
 
-.ficon {
-  background-color: #3b5998;
-}
-
 .share img {
   height: 1.5em;
   margin-top: -0.3em;
@@ -65,14 +87,10 @@ font-weight: 700;
   background-color: #55ACEE;
 }
 
-.ticon {
-  background-color: #55ACEE;
-}
 /* Footer */
 
 footer {
     border-radius: 0.3em 0.3em 0em;
-    position: static;
     background-color: #e60012;
     bottom: 0;
     width: 100%;
@@ -100,7 +118,6 @@ footer img {
 }
 
 .top {
-  font-size: small;
   font-weight: 600;
 }
 
@@ -121,7 +138,7 @@ footer img {
 
 .footer .bot {
   padding: 0em 1.5em 0em 1.85em;
-  font-size: small;
+  font-size: 1em;
 }
 
 .footer .bot a {
