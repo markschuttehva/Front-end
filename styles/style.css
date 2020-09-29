@@ -13,36 +13,195 @@ body {
 header {
   background-color: #e60012;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
-  min-height: 50px;
-  padding: 2.5em;
+  padding: 2em;
   margin: -1em;
 }
 
+header nav {
+  margin-left: 0.75em;
+}
+
+header nav img {
+  width: 8em;
+  margin: -1em;
+  padding: 0em;
+}
 
 /* Main */
-main {
+/* main {
   display: grid;
+  grid-template-columns: repeat(2, 10fr 5fr);
+  grid-gap: 1em;
+  grid-auto-rows: minmax(30em, auto);
+  
+} */
+
+main nav {
+  height: 100%;
+  position: fixed;
+  margin-left: -1em;
+  background: #bf0010;
+  z-index: 1;
+}
+
+main nav ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 80%;
+  padding: 1em 0em 1em 0.5em;
+  background-color: #e60012;
+  text-align: center;
+  margin-left: -7em;
+  width: 7em;
+  margin-top: 0.1em;
+}
+
+main nav ul li a {
+  color: white;
+  text-decoration: none;
+  width: 6em;
+  display: block;
+}
+
+main nav ul {
+  margin: 4.2em 0em 0em 3.6em;
+  background: #bf0010;
+  width: max-content;
+}
+main nav ul li:last-child{
+  background-color: #bf0010;;
+}
+
+main nav ul li:last-child a img{
+  background: white;
+  padding: 0.8em 0.5em 0.8em 0.5em;
+  border-radius: 0.3em 0.3em 0em 0em;
+  position: absolute;
+  bottom: 0;
+  margin-left: 2em;
+  width: 2em;
+}
+
+main nav ul li img {
+  width: 2.5em;
+  display: block;
+  margin: auto;
+  margin-bottom: 0.5em;
 }
 
 .uitgelicht {
-  padding: 1em;
+  padding: 4.5em 0em 0em 5.4em;
+  width: 69%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(10, 0fr);
+  grid-column-gap: 0.2em;
+  grid-row-gap: 0.2em; 
 }
 
+.uitgelicht a img {
+  border-radius: 0.2em;
+}
+/* https://www.sitepoint.com/css-grid-generators/ 
+https://cssgrid-generator.netlify.app/ */
+.div1 { grid-area: 10 / 1 / 11 / 4; }
+.div2 { grid-area: 9 / 2 / 10 / 4; }
+.div3 { grid-area: 8 / 1 / 10 / 2; }
+.div4 { grid-area: 8 / 2 / 9 / 3; }
+.div5 { grid-area: 8 / 3 / 9 / 4; }
+.div6 { grid-area: 7 / 2 / 8 / 4; }
+.div7 { grid-area: 6 / 1 / 8 / 2; }
+.div8 { grid-area: 6 / 2 / 7 / 3; }
+.div9 { grid-area: 6 / 3 / 7 / 4; }
+.div10 { grid-area: 4 / 1 / 5 / 3; }
+.div11 { grid-area: 3 / 3 / 5 / 4; }
+.div12 { grid-area: 3 / 2 / 4 / 3; }
+.div13 { grid-area: 3 / 1 / 4 / 2; }
+.div14 { grid-area: 2 / 1 / 3 / 3; }
+.div15 { grid-area: 1 / 3 / 3 / 4; }
+.div16 { grid-area: 1 / 2 / 2 / 3; }
+.div17 { grid-area: 1 / 1 / 2 / 2; }
+.div18 { grid-area: 5 / 1 / 6 / 2; }
+.div19 { grid-area: 5 / 3 / 6 / 4; } 
+
+main section a img {
+  width: 100%;
+  height: 100%;
+}
+
+.nieuws {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30.5%;
+  margin-top: 2em;
+}
+
+.nieuws ul li {
+  text-decoration: none;
+  list-style: none;
+  background-color: white;
+  margin-bottom: 0.3em;
+}
 
 .nieuws h2 {
-font-size: 1.6em;
-color: #333;
-font-weight: 700;
+  font-size: 1em;
+  color: #333;
+  font-weight: 700;
+  padding: 0.5em;
+  background-color: white;
+  margin-top: 3em;
+  margin-bottom: -0.4em;
+  border-left: #f4f4f4 solid 4px;
+}
+
+.nieuws ul {
+  padding: 0em;
+}
+
+.nieuws .artikel div {
+  margin-left: 0.5em;
+}
+
+.nieuws ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nieuws ul li a img {
+  margin: auto;
+  width: auto;
+  height: auto;  
+  max-width: 10em;
+}
+
+.data {
+  font-size: 0.6em;
+}
+
+.text {
+  font-size: 0.8em;
+}
+
+.nieuws .artikel {
+  display: flex;
+  padding: 0.5em;
+}
+
+.nieuws ul li h3 {
+  font-weight: 700;
+  font-size: 1em;
+  color: #333;
 }
 
 .delen {
   position: relative;
   background-color: #333;
   color: white;
-  margin-bottom: 2.2em;
-  padding: 0.3em 0em 0.3em 0em;
+  margin: 2.2em 0em 2.2em 5.4em;
+  padding: 0.8em 0em 0.8em 0em;  
 }
 
 .delen h2 {
@@ -93,9 +252,9 @@ footer {
     border-radius: 0.3em 0.3em 0em;
     background-color: #e60012;
     bottom: 0;
-    width: 100%;
     color: white;
     position: relative;
+    margin-left: 5.4em;
 }
 
 footer img {
