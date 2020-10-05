@@ -6,10 +6,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
-
+1. https://www.nintendo.nl/
+2. https://codepen.io/LantareCode/pen/dOXmBJ
+3. https://cssgrid-generator.netlify.app/
+4. https://www.sitepoint.com/css-grid-generators/ 
+5. https://community.adobe.com/t5/dreamweaver/expected-rbrace-at-line-4-col-2-is-this-error-a-bug/td-p/10547718?page=1
+6. http://csslint.net/
 
 
 ## Eindgesprek (week 7/8)
@@ -38,7 +40,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+- De feedback die ik ontvangen had was nuttig en terecht. Er zaten een aantal foutjes in die makkelijk herstelbaar waren wat ik ook gedaan heb.
+- Goed, Positieve feedback, gerichte feedback, makkelijk aan te passen. 
+- Lastig, Javascript omgooien, inmiddels gefixt.
+
 
 **Screenshot(s):**
 
@@ -51,19 +56,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Verslag van meeting
 
 Verbeterpunten
-HTML
-Bovenste script javascript weghalen in head(is overbodig) x
-Namen classnames
-class footer veranderen
-class head veranderen
-Onclick veranderen x -> gebruik gemaakt van queryselector en addEventListener
+Verbeterpunten met een x zijn gefixed.
+#### HTML
+* Bovenste script javascript weghalen in head(is overbodig) x
+* Namen classnames
+* Class footer veranderen
+* Class head veranderen
+* Onclick veranderen x -> gebruik gemaakt van queryselector en addEventListener ipv onlick
 
-CSS (css linter)
-font-family naar body verplaatsen x
-xxl font-size veranderen naar em x
-small font-size x
-ticon en ficon verwijderen x
-footer 2x position x
+#### CSS (css linter)
+* font-family naar body verplaatsen x
+* xxl font-size veranderen naar em x
+* small font-size x
+* ticon en ficon verwijderen  (classes) x
+* footer 2x position x
 
 ## Intake (week 1)
 

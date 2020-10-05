@@ -9,7 +9,6 @@ body {
   background-color: #f4f4f4;
 }
 
-
 *::-webkit-scrollbar {
   width: 0.5em;
 }
@@ -21,7 +20,6 @@ body {
 *::-webkit-scrollbar-thumb {
   background: #e60012;
 }
-
 
 /* Header */
 
