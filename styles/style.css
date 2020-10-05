@@ -60,6 +60,8 @@ header nav img {
   to{left: 80%;}
 }
 
+
+
 /* Main */
 /* main {
   display: grid;
@@ -411,3 +413,59 @@ footer p {
 }
 
 /* End footer */
+
+/* Media Querie */
+@media (max-width: 60em) {
+.uitgelicht {
+  width: 100%;
+}
+
+.nieuws {
+  position: relative;
+  width: 100%;
+  margin-top: 0.5em;
+  margin-left: 5.5em;
+}
+
+.nieuws h2 {
+  margin-top: 0;
+}
+
+.nieuws ul li a img {
+  margin: 0;
+}
+
+}
+
+@media (max-width: 48em) {
+
+  main nav {
+    display: none;
+  }
+
+  .uitgelicht {
+    padding: 4.5em 0em 0em 0em;
+    grid-column-gap: 0.2em;
+    grid-row-gap: 0.2em; 
+    grid-template-columns: none;
+    grid-template-rows: none;
+    display: block;
+    margin: 0em;
+  }
+  
+  .nieuws {
+    margin-left: 0;
+  }
+
+  .mario {
+    display: none;
+  }
+
+  .delen {
+    margin-left: 0;
+  }
+
+  footer {
+    margin: 0;
+  }
+}
