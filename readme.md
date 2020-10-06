@@ -12,7 +12,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 4. https://www.sitepoint.com/css-grid-generators/ 
 5. https://community.adobe.com/t5/dreamweaver/expected-rbrace-at-line-4-col-2-is-this-error-a-bug/td-p/10547718?page=1
 6. http://csslint.net/
-
+7. https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
 
 ## Eindgesprek (week 7/8)
 
@@ -32,9 +32,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
-
-
+- Helaas kan ik de juiste icoontjes niet vinden van Nintendo zelf, nu zelf maar icoontjes gemaakt en gebruikt op de website (in overleg)
+- Search werkt nog niet (javascript + css)
+- Tweede pagina maken
+- Meer nieuws stijlen
+- Hover toevoegen + shadow (grid)
+- Hover menu
+- Uitklapbaar menu maken
+- Linkjes goed linken
+- "het laatste nieuws" stijlen
+- Link text titel nieuws (underline)
 
 ## Voortgang 1 (week 3)
 

@@ -91,7 +91,7 @@ header hr {
   height: 4.4em;
   background: url("../images/mario.png");
   margin-top: -1.5em;
-  /*steps wordt gebruikt om het te laten lopen, het is een afbeelding met 4 kleinere afbeeldingen erin*/
+  /*steps wordt gebruikt om het te laten lopen, het is een afbeelding met 4 kleinere afbeeldingen erin waardoor het systeem heen tappt*/
   animation: play 0.8s steps(4) infinite, run 4s both infinite linear;
 }
 @keyframes play{
@@ -106,14 +106,6 @@ header hr {
 
 
 /* Main */
-/* main {
-  display: grid;
-  grid-template-columns: repeat(2, 10fr 5fr);
-  grid-gap: 1em;
-  grid-auto-rows: minmax(30em, auto);
-  
-} */
-
 main nav {
   height: 100%;
   position: fixed;
@@ -201,6 +193,7 @@ https://cssgrid-generator.netlify.app/ */
 .div17 { grid-area: 1 / 1 / 2 / 2; }
 .div18 { grid-area: 5 / 1 / 6 / 2; }
 .div19 { grid-area: 5 / 3 / 6 / 4; } 
+.div20 { grid-area: 5 / 2 / 6 / 2;}
 
 main section a img {
   width: 100%;
