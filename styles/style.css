@@ -41,15 +41,58 @@ header nav img {
   margin: -1em;
   padding: 0em;
 }
+
+.search {
+  transform: rotate(90deg);
+  padding: 1em 0em 0em 0em;
+  margin-top: -0.6em;
+}
+
+header nav div {
+  position: absolute;
+  display: inline;
+  right: 0;
+}
+
+.cart {
+  margin: 0em 0em -0.4em 0em;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:last-child {
+  margin-right: 0.5em;
+}
+
+.login {
+  padding: 0em 0em 0.5em 0em;
+  margin-left: 0.1em;
+  margin-right: 0.8em;
+}
+
+header nav div a img {
+  width: 2em;
+}
+
+header hr {
+  margin: 0em 1em 0em 1em;
+  border-color: white;
+  display: inline;
+  padding: 0.5em 0em 0.5em 0em;
+}
+
 /*https://codepen.io/LantareCode/pen/dOXmBJ*/
 .mario {
   position: absolute;
   width: 4em;
   height: 4.4em;
   background: url("../images/mario.png");
-  margin-top: -2.5em;
+  margin-top: -1.5em;
   /*steps wordt gebruikt om het te laten lopen, het is een afbeelding met 4 kleinere afbeeldingen erin*/
-  animation: play 0.8s steps(4) infinite, run 5s both infinite linear;
+  animation: play 0.8s steps(4) infinite, run 4s both infinite linear;
 }
 @keyframes play{
   100%{background-position: 17.75em;}
@@ -57,7 +100,7 @@ header nav img {
 
 @keyframes run{
   from{left: 10em;}
-  to{left: 80%;}
+  to{left: 69%;}
 }
 
 
