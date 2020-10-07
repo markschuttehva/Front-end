@@ -49,6 +49,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 - Namen classnames
 - Class footer veranderen
 - Class head veranderen
+- Stijlen tweede pagina
 
 ## Voortgang 1 (week 3)
 
