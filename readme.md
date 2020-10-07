@@ -32,16 +32,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
-- Helaas kan ik de juiste icoontjes niet vinden van Nintendo zelf, nu zelf maar icoontjes gemaakt en gebruikt op de website (in overleg)
+
+### Gedaan
+- Helaas kan ik de juiste icoontjes niet vinden van Nintendo zelf, nu zelf maar icoontjes gemaakt en gebruikt op de website (in overleg) x
+- Kopje "Meer nieuws" stijlen x
+- Hover toevoegen + shadow (grid) x
+- Hover menu x
+- "meer nieuws" kopje stijlen x
+- Link text titel nieuws (underline) x
+- Text op grid (over afbeelding) x
+
+### Nog te doen
 - Search werkt nog niet (javascript + css)
-- Tweede pagina maken
-- Meer nieuws stijlen
-- Hover toevoegen + shadow (grid)
-- Hover menu
-- Uitklapbaar menu maken
-- Linkjes goed linken
-- "het laatste nieuws" stijlen
-- Link text titel nieuws (underline)
+- Tweede pagina maken (super smash bros)
+- Uitklapbaar menu maken (hamburger, media query scherm minder dan xxx aantal em/px)
+- Namen classnames
+- Class footer veranderen
+- Class head veranderen
 
 ## Voortgang 1 (week 3)
 
@@ -69,7 +76,7 @@ Verbeterpunten met een x zijn gefixed.
 * Namen classnames
 * Class footer veranderen
 * Class head veranderen
-* Onclick veranderen x -> gebruik gemaakt van queryselector en addEventListener ipv onlick
+* Onclick veranderen -> gebruik gemaakt van queryselector en addEventListener ipv onlick x
 
 #### CSS (css linter)
 * font-family naar body verplaatsen x

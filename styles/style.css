@@ -26,7 +26,7 @@ body {
 header {
   background-color: #e60012;
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   width: 100%;
   padding: 2em;
   margin: -1em;
@@ -126,6 +126,10 @@ main nav ul li {
   margin-top: 0.1em;
 }
 
+main nav ul li:hover {
+  background-color: #d10000;
+}
+
 main nav ul li a {
   color: white;
   text-decoration: none;
@@ -167,6 +171,30 @@ main nav ul li img {
   grid-template-rows: repeat(10, 0fr);
   grid-column-gap: 0.2em;
   grid-row-gap: 0.2em; 
+}
+
+.uitgelicht a:hover {
+  margin: -0.35em 0em 0.35em 0em;
+  box-shadow: 0 0 1em 0.25em #888;
+}
+
+.uitgelicht a {
+  position: relative;
+}
+
+.uitgelicht p {
+  z-index: 2;
+  position: absolute;
+  margin: -2.7em auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 0em 0em 1em 0em;
+  text-align: center;
+  line-height: 1.5em;
+  color: white;
+  border-bottom-left-radius: 0.2em;
+  border-bottom-right-radius: 0.2em;
+  text-transform: uppercase;
 }
 
 .uitgelicht a img {
@@ -263,6 +291,24 @@ main section a img {
   font-weight: 700;
   font-size: 1em;
   color: #333;
+}
+
+.nieuws ul li a:hover h3 {
+  text-decoration: underline;
+}
+
+.nieuws ul .more {
+  font-size: 1em;
+  font-weight: 700;
+  background-color: white;
+  line-height: 3em;
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  position: absolute;
+  text-align: end;
+  padding-right: 2em;
 }
 
 .delen {
@@ -449,6 +495,17 @@ footer p {
 }
 
 /* End footer */
+
+/* tweede pagina */
+.supersmashbros {
+  padding: 4.5em 0em 0em 5.4em;
+  width: 69%;
+}
+
+iframe {
+  width: 100%;
+  height: 23.5em;
+}
 
 /* Media Querie */
 @media (max-width: 60em) {
