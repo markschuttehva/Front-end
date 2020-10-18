@@ -26,7 +26,7 @@ body {
 header {
   background-color: #e60012;
   position: fixed;
-  z-index: 3;
+  z-index: 6;
   width: 101%;
   padding: 1.9em;
   margin: -1em;
@@ -40,6 +40,7 @@ header nav img {
   width: 8em;
   margin: -1em;
   padding: 0em;
+  margin-left: -1em;
 }
 
 .search {
@@ -176,10 +177,14 @@ main nav ul li img {
 .uitgelicht a:hover {
   margin: -0.35em 0em 0.35em 0em;
   box-shadow: 0 0 1em 0.25em #888;
+  transition: 0.5s;
+  transition-timing-function: linear;
 }
 
 .uitgelicht a {
   position: relative;
+  transition-timing-function: linear;
+  transition: 0.5s;
 }
 
 .uitgelicht p {
@@ -521,7 +526,7 @@ iframe {
   margin-top: 0.5em;
   font-weight: 100;
   color: #333;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .content img {
@@ -542,11 +547,28 @@ iframe {
   font-size: 0.8em;
 }
 
+.content a:hover {
+  text-decoration: underline;
+}
+
 .content div img {
   float: left;
   width: 50%;
   margin: auto;
   padding: 0em 0.3em 0.3em 0em;
+}
+
+.content a:nth-of-type(5), .content a:nth-of-type(6), .content a:nth-of-type(8), .content a:nth-of-type(9), .content a:nth-of-type(10) {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.extra {
+  font-size: 0.8em;
+}
+
+.extra {
+  font-weight: 600;
 }
 
 .inlineblock {
@@ -599,7 +621,7 @@ iframe {
 }
 
 .info {
-  margin: 2.2em 0em 2.2em 5.4em;
+  margin: -1.5em 0em 2.2em 5.4em;
 }
 
 .koopinfo {
@@ -717,7 +739,88 @@ iframe {
 }
 
 .koopinfo h2:last-of-type {
-  background-color: aqua;
+  font-size: 1em;
+  color: #333;
+  font-weight: 700;
+  padding: 0.5em;
+  background-color: white;
+  margin-bottom: 1em;
+  border-left: #f4f4f4 solid 4px;
+}
+
+.left, .right {
+  width: 48%;
+  display: inline-grid;
+  background-color: white;
+  margin: -1.75 em 1em 0em 0em;  
+}
+
+.left h2, .right h2 {
+  font-size: 1.25em;
+  color: #333;
+  font-weight: 700;
+  padding: 0.5em;
+  background-color: white;
+  margin-bottom: 1em;
+  border-left: #f4f4f4 solid 4px;
+  margin-left: 1em;
+}
+
+.left hr, .right hr {
+  width: 100%;
+  border: 0.01em solid lightgray;
+  margin-bottom: 0.5em;
+}
+
+.left p, .left b, .right p, .right b{
+  padding: 0em 0em 0em 1em;
+  margin: 0em;
+}
+
+.left p, .right p {
+  font-size: 0.75em;
+  border-bottom: 0.1em solid lightgray;
+  margin-bottom: 1em;
+  padding: 0em 0em 0.5em 1.4em;
+}
+
+.left p:last-child, .right p:last-child {
+  margin-bottom: 0;
+  border: none;
+}
+
+.secondnav {
+  height: 100vh;
+  z-index: 3;
+  background-color: #e3e3e3;
+  margin-left: -6em;
+  margin-top: 1em;
+}
+
+.secondnav ul {
+  width: auto;
+}
+
+.secondnav ul li {
+  height: 8em;
+  list-style: none;
+  margin: 1em;
+  float: left;
+  border-radius: 0.4em;
+  box-shadow: 0 0.1em 1em 0 rgba(0,0,0,0.16);
+}
+
+.secondnav ul li a {
+  display: grid;
+}
+
+.secondnav ul li a img {
+  width: 3em;
+
+}
+
+.secondnav ul li:last-of-type {
+  display: none;
 }
 
 /* Media Querie */
@@ -773,5 +876,45 @@ iframe {
 
   footer {
     margin: 0;
+  }
+}
+
+/*hamburger menu
+https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
+*/
+nav a label, .secondnav { display: none; }
+@media (max-width: 48em){
+nav a label {display: block;}
+/* .streep {transition: 0.5s; transition-timing-function: linear;} */
+nav a label { 
+  color: white;
+  font-size: 2em;
+  margin-bottom: -1em;
+  justify-content: left;
+  display: grid;
+  margin-left: -0.5em;
+  width: 1em;
+}
+header nav img {
+  margin-left: 2em;
+}
+}
+
+@media (max-width: 30em) {
+  header nav img {
+    width: 5em;
+    margin: 0 0 -0.5em 2em;
+  }
+  header nav div a img:nth-child(1) {
+    width: 1em;
+    margin: 0;
+    padding: 0;
+  }
+  header nav div a {
+    font-size: 0.7em;
+    text-align: center;
+  }
+  header hr {
+    padding: 0.2em 0em 0.2em 0em;
   }
 }

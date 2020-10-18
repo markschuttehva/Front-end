@@ -30,3 +30,21 @@ function change() {
 			pijl.style.transform = "rotate(180deg)";
 		}
 };
+
+/* hamburger menu */
+let streep = document.querySelector(".streep"); //3 streepjes
+let nav = document.querySelector('.secondnav'); //navigatie
+let hamburger = document.querySelector('.hamburger'); //klik
+
+hamburger.addEventListener("click", open);
+function open() {
+		if (nav.style.display == "block") {
+			streep.innerHTML = "&#9776;";		
+			nav.style.display = "none";
+			streep.style.transition = "0.5s, linear";
+		} else {
+			streep.innerHTML = "X"; 
+			nav.style.display = "block";
+			streep.style.transition = "0.5s, linear";
+		}
+};

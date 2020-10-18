@@ -16,6 +16,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 8. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_arrows
 9. https://www.wikihow.com/Add-Facebook-Plugin-to-Website
 10. https://developers.facebook.com/docs/plugins/page-plugin
+11. https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
 
 ## Eindgesprek (week 7/8)
 
@@ -35,14 +36,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 - minder gebruik maken van classes meer direct aanspreken (main ul li a)
 - nieuws div maken naar article maken (robert)
 - delen - > section veranderen naar a klikbaar (robert)
-- Hamburger menu maken
-- transision hover effect (uitgelicht, langzame animatie) 
+- Hamburger menu maken x
+- transision hover effect (uitgelicht, langzame animatie) x
 
 
 ### Nog te doen
 - Search werkt nog niet (javascript + css)
 - Tweede pagina maken (super smash bros) x
-- Uitklapbaar menu maken (hamburger, media query scherm minder dan xxx aantal em/px)
+- Uitklapbaar menu maken (hamburger, media query scherm minder dan xxx aantal em/px) x
 - Namen classnames
 - Class footer veranderen
 - Class head veranderen
