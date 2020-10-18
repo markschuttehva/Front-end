@@ -13,6 +13,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 5. https://community.adobe.com/t5/dreamweaver/expected-rbrace-at-line-4-col-2-is-this-error-a-bug/td-p/10547718?page=1
 6. http://csslint.net/
 7. https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+8. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_arrows
+9. https://www.wikihow.com/Add-Facebook-Plugin-to-Website
+10. https://developers.facebook.com/docs/plugins/page-plugin
 
 ## Eindgesprek (week 7/8)
 
@@ -25,12 +28,40 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 3 (week 6)
+### Feedback Victor
+- transform 180 graden pijltje bij land x
+- menu kleiner maken onder 400 px (login, cart, search)
+- header -1em veranderen (1em auto) zodat de witruimte weg is x
+- minder gebruik maken van classes meer direct aanspreken (main ul li a)
+- nieuws div maken naar article maken (robert)
+- delen - > section veranderen naar a klikbaar (robert)
+- Hamburger menu maken
+- transision hover effect (uitgelicht, langzame animatie) 
 
--same as voortgang 1-
+
+### Nog te doen
+- Search werkt nog niet (javascript + css)
+- Tweede pagina maken (super smash bros) x
+- Uitklapbaar menu maken (hamburger, media query scherm minder dan xxx aantal em/px)
+- Namen classnames
+- Class footer veranderen
+- Class head veranderen
+- Stijlen tweede pagina
+- w3 validator
+- css linter
 
 
 
 ## Voortgang 2 (week 5)
+- Feedback Victor
+transform 180 graden pijltje bij land
+menu kleiner maken onder 400 px (login, cart, search)
+header -1em veranderen (1em auto) zodat de witruimte weg is
+minder gebruik maken van classes meer direct aanspreken (main ul li a)
+nieuws div maken naar article maken (robert)
+delen - > section veranderen naar a klikbaar (robert)
+Hamburger menu maken
+transision hover effect (uitgelicht) 
 
 
 ### Gedaan
@@ -50,6 +81,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 - Class footer veranderen
 - Class head veranderen
 - Stijlen tweede pagina
+- w3 validator
+- css linter
 
 ## Voortgang 1 (week 3)
 

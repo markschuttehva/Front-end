@@ -17,13 +17,16 @@
 
 let land = document.querySelector(".land"); //display section van landen
 let knop = document.querySelector('.knop'); //button
+let pijl = document.querySelector('.arrow'); //Pijltje
 knop.addEventListener("click", change);
 function change() {
 		if (land.style.display == "block") {
 			land.style.display = "none"; 
 			knop.style.padding = "0em 1em 0.3em 1em";
+			pijl.style.transform = "rotate(0deg)";
 		} else {
 			land.style.display = "block";
 			knop.style.padding = "0em 1em 1.3em 1em";
+			pijl.style.transform = "rotate(180deg)";
 		}
 };
