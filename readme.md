@@ -31,7 +31,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 3 (week 6)
 ### Feedback Victor
 - transform 180 graden pijltje bij land x
-- menu kleiner maken onder 400 px (login, cart, search)
+- menu kleiner maken onder 400 px (login, cart, search) x
 - header -1em veranderen (1em auto) zodat de witruimte weg is x
 - minder gebruik maken van classes meer direct aanspreken (main ul li a)
 - nieuws div maken naar article maken (robert)
@@ -43,6 +43,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Nog te doen
 - Search werkt nog niet (javascript + css)
 - Tweede pagina maken (super smash bros) x
+- tweede pagina mobiel acceptabel maken
 - Uitklapbaar menu maken (hamburger, media query scherm minder dan xxx aantal em/px) x
 - Namen classnames
 - Class footer veranderen

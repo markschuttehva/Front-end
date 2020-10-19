@@ -719,12 +719,18 @@ iframe {
   text-decoration: underline;
 }
 
-.arrow {
+.pijl {
   border: solid #8c8c8c;
   border-width: 0 0.1em 0.1em 0;
   display: inline-block;
   padding: 0.2em;
+  padding: 0.2em;
   transform: rotate(-45deg);
+}
+
+.arrow {
+  padding: 0.2em;
+  transform: rotate(0deg);
 }
 
 .koopinfo iframe {
@@ -844,10 +850,21 @@ iframe {
   margin: 0;
 }
 
+.supersmashbros {
+  padding: 4.2em 0 0 5.4em;
+  width: 100%;
+}
+.koopinfo {
+  position: relative;
+  width: 88%;
+  margin-top: 1em;
+  margin-left: 5.4em;
+  margin-right: 0;
+}
+
 }
 
 @media (max-width: 48em) {
-
   main nav {
     display: none;
   }
@@ -876,6 +893,25 @@ iframe {
 
   footer {
     margin: 0;
+  }
+
+  .supersmashbros {
+    padding: 4.5em 0 0 0;
+    width: 100%;
+  }
+
+  .koopinfo {
+    position: relative;
+    width: 100%;
+    margin-top: 1em;
+    margin-right: 0;
+  }
+  .info {
+    margin: -1.5em 0em 2.2em 0em;
+  }
+
+  .content div img {
+    width: 100%;
   }
 }
 
