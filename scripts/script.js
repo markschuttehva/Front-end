@@ -48,3 +48,52 @@ function open() {
 			streep.style.transition = "0.5s, linear";
 		}
 };
+
+/* menubar onder video */
+let dots = document.querySelector(".dots"); // 3 bolletjes onder video
+let sec = document.querySelector(".second") // navigate onder video
+
+dots.addEventListener("click", show);
+function show() {
+	if (sec.style.display == "block"){
+		sec.style.display = "none";
+	} else {
+		sec.style.display = "block";
+	}
+}
+
+/* menu items onder video */
+// list items supersmash
+let Fighterpass = document.querySelector(".tweede");
+let Fighterpass2 = document.querySelector(".derde");
+let meerdlc = document.querySelector(".vierde");
+// tweede navigatie
+let eerste = document.querySelector(".first");
+let tweede = document.querySelector(".second");
+
+function checkMediaQuery() {
+	// wanneer het scherm groter is dan het aantal pixels
+	if (window.innerWidth > 600) {
+	  console.log('Media Query 600');
+	  eerste.append(meerdlc);
+	} 
+	else if (window.innerWidth > 540) {
+		// laat het 4e element verdwijnen
+		console.log('Media Query 540');
+		eerste.append(Fighterpass2);
+		tweede.append(meerdlc);
+	}
+	else if (window.innerWidth > 460) {
+		// laat het 3e element verdwijnen
+		console.log('Media Query 460');
+		eerste.append(Fighterpass);
+		tweede.append(Fighterpass2);
+	} 
+	else if (window.innerWidth > 300) {
+		// laat het 2e element verdwijnen
+		console.log('Media Query 300');
+		tweede.append(Fighterpass);		
+	}
+  }
+  // wanneer er met het scherm geschaald wordt
+window.addEventListener('resize', checkMediaQuery);

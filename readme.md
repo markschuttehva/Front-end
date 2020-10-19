@@ -17,6 +17,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 9. https://www.wikihow.com/Add-Facebook-Plugin-to-Website
 10. https://developers.facebook.com/docs/plugins/page-plugin
 11. https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
+12. https://css-tricks.com/working-with-javascript-media-queries/
+13. https://www.w3schools.com/howto/howto_js_media_queries.asp
 
 ## Eindgesprek (week 7/8)
 
@@ -43,7 +45,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Nog te doen
 - Search werkt nog niet (javascript + css)
 - Tweede pagina maken (super smash bros) x
-- tweede pagina mobiel acceptabel maken
+- tweede pagina mobiel acceptabel maken x
 - Uitklapbaar menu maken (hamburger, media query scherm minder dan xxx aantal em/px) x
 - Namen classnames
 - Class footer veranderen

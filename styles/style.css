@@ -613,11 +613,39 @@ iframe {
   display: flex;
   position: relative;
   align-items: center;
-  justify-content: space-evenly;
+  padding-left: 0;
 }
 
 .game ul li {
   display: inline;
+  border-right: 1px solid lightgray;
+  height: 50%;
+  margin: 0;
+  position: relative;
+  padding-top: 0.3em;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-weight: 700;
+}
+
+.game ul li:last-of-type {
+  border: none;
+}
+
+.game ul:last-of-type {
+  display: none;
+  height: auto;
+  position: absolute;
+}
+
+.game ul:last-of-type li {
+  display: block;
+  border-bottom: 1px solid lightgray;
+  padding: 1em;
+}
+
+.dots {
+  cursor: pointer;
 }
 
 .info {
@@ -856,10 +884,23 @@ iframe {
 }
 .koopinfo {
   position: relative;
-  width: 88%;
+  width: auto;
   margin-top: 1em;
-  margin-left: 5.4em;
+  margin-left: 0em;
   margin-right: 0;
+}
+
+.delen {
+  margin: 1.2em 0em 2.2em 5.4em;
+}
+
+.nieuws {
+  width: auto;
+}
+
+.nieuws ul .more {
+  width: auto;
+  position: relative;
 }
 
 }
