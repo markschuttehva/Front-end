@@ -55,7 +55,7 @@ header nav div {
   right: 0.5em;
 }
 
-.cart {
+nav div a:nth-of-type(2) img {
   margin: 0em 0em -0.4em 0em;
 }
 
@@ -68,7 +68,7 @@ header a:last-child {
   margin-right: 0.5em;
 }
 
-.login {
+nav div a:last-of-type img {
   padding: 0em 0em 0.5em 0em;
   margin-left: 0.1em;
   margin-right: 0.8em;
@@ -382,45 +382,46 @@ footer img {
   margin-right: 2em;
 }
 
-.footer {
+footer section:last-of-type {
   background-color: #bf0010;
   color: white;
 }
 
-.footer a {
+footer section:last-of-type a {
   color: white;
   text-decoration: none;
 }
 
-.footer a:hover {
+footer section:last-of-type a:hover {
   text-decoration: underline;
 }
+
 
 .top {
   font-weight: 600;
 }
 
-.footer ul {
+footer section:last-of-type ul {
   padding: 1.5em 1.5em 0em 1.85em;
   list-style-type:none;
 }
 
-.footer li {
+footer section:last-of-type li {
   display: inline;
 }
 
-.footer .top li {
+footer section:last-of-type .top li {
   font-size: 1rem;
   display: inline;
   margin-right: 2em;
 }
 
-.footer .bot {
+footer section:last-of-type ul:last-of-type {
   padding: 0em 1.5em 0em 1.85em;
   font-size: 1em;
 }
 
-.footer .bot a {
+footer section:last-of-type ul:last-of-type a {
   margin-right: 1.5em;
 }
 
@@ -431,18 +432,19 @@ footer img {
   display: none;
 }
 
-.grid {
+footer .land ul {
   display: grid;
   grid-template-columns: auto auto auto;
   list-style-type:none;
 }
 
-.grid-item {
+footer .land ul li {
   margin: 0em 0em 1em 0em;
 }
 
-.grid-item:hover {
+footer .land ul li:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 hr {
@@ -456,12 +458,12 @@ h2 {
   padding: 1em 0em 0em 1.7em;  
 }
 
-footer .head {
+footer section:first-of-type {
   margin: 0em 0em -1em 0em;
   padding: 0.7em 0em 0.5em 2em;
 }
 
-footer .head .top {
+footer section:first-of-type a:last-of-type {
   position: absolute;
   right: 1.5em;
   top: 0em;
@@ -471,7 +473,6 @@ footer .head .top {
   border-radius: 0em 0em 0.3em 0.3em;
   box-shadow: .5px 3px 2px -2px #333;
   color: #e60012;
-  font-weight: bold;
   font-size: 1em;
 }
 
@@ -494,7 +495,7 @@ footer p {
   margin: auto auto auto 0.5em;
 }
 
-.top img {
+footer section:first-of-type a:last-of-type img {
   width: 1em;
   margin: auto;
 }
@@ -896,7 +897,7 @@ iframe {
   width: auto;
 }
 
-.nieuws ul .more {
+main section:nth-of-type(3) ul a:last-of-type {
   width: auto;
   position: relative;
 }

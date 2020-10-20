@@ -74,26 +74,46 @@ let tweede = document.querySelector(".second");
 function checkMediaQuery() {
 	// wanneer het scherm groter is dan het aantal pixels
 	if (window.innerWidth > 600) {
-	  console.log('Media Query 600');
+	//   console.log('Media Query 600');
 	  eerste.append(meerdlc);
 	} 
 	else if (window.innerWidth > 540) {
 		// laat het 4e element verdwijnen
-		console.log('Media Query 540');
+		// console.log('Media Query 540');
 		eerste.append(Fighterpass2);
 		tweede.append(meerdlc);
 	}
 	else if (window.innerWidth > 460) {
 		// laat het 3e element verdwijnen
-		console.log('Media Query 460');
+		// console.log('Media Query 460');
 		eerste.append(Fighterpass);
 		tweede.append(Fighterpass2);
 	} 
 	else if (window.innerWidth > 300) {
 		// laat het 2e element verdwijnen
-		console.log('Media Query 300');
+		// console.log('Media Query 300');
 		tweede.append(Fighterpass);		
 	}
   }
   // wanneer er met het scherm geschaald wordt
 window.addEventListener('resize', checkMediaQuery);
+
+/* meescrollen tweede navigatie */
+
+function secondnav() {
+	let y = window.scrollY;
+	// console.log(y);
+	if (y > 460) {
+		eerste.style.position = "fixed";
+		tweede.style.position = "fixed";
+		tweede.style.top = "8.4em";
+	 	eerste.style.top = "4.4em";
+	} else {
+		eerste.style.position = "relative";
+		tweede.style.position = "relative";
+		eerste.style.top = "0";
+		tweede.style.top = "0";
+	}
+}
+
+window.addEventListener('scroll', secondnav);
