@@ -19,7 +19,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 11. https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
 12. https://css-tricks.com/working-with-javascript-media-queries/
 13. https://www.w3schools.com/howto/howto_js_media_queries.asp
-14. Robert (uiteraard ;))
+14. Robert & Victor (uiteraard ;))
 
 ## Eindgesprek (week 7/8)
 

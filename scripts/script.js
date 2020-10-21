@@ -99,7 +99,6 @@ function checkMediaQuery() {
 window.addEventListener('resize', checkMediaQuery);
 
 /* meescrollen tweede navigatie */
-
 function secondnav() {
 	let y = window.scrollY;
 	// console.log(y);
@@ -117,3 +116,12 @@ function secondnav() {
 }
 
 window.addEventListener('scroll', secondnav);
+
+/* search */
+
+let search = document.querySelector(".search");
+search.addEventListener("click", zoek);
+
+function zoek() {
+	
+}
