@@ -55,7 +55,7 @@ header nav div {
   right: 0.5em;
 }
 
-nav div a:nth-of-type(2) img {
+nav div img:nth-of-type(2) {
   margin: 0em 0em -0.4em 0em;
 }
 
@@ -64,17 +64,22 @@ header a {
   color: white;
 }
 
+header nav div p {
+  display: inline;
+  color: white;
+}
+
 header a:last-child {
   margin-right: 0.5em;
 }
 
-nav div a:last-of-type img {
+nav div img:last-of-type {
   padding: 0em 0em 0.5em 0em;
   margin-left: 0.1em;
   margin-right: 0.8em;
 }
 
-header nav div a img {
+header nav div img {
   width: 2em;
 }
 
@@ -977,16 +982,19 @@ header nav img {
 }
 
 @media (max-width: 30em) {
+  nav div img:last-of-type {
+    padding: 0;
+  }
+  .search {
+    padding: 0;
+  }
+
   header nav img {
     width: 5em;
     margin: 0 0 -0.5em 2em;
   }
-  header nav div a img:nth-child(1) {
-    width: 1em;
-    margin: 0;
-    padding: 0;
-  }
-  header nav div a {
+  
+  header nav div {
     font-size: 0.7em;
     text-align: center;
   }
@@ -996,6 +1004,7 @@ header nav img {
 }
 
 .searchpage {
+  display: none;
   position: fixed;
   top: 0;
   right: 0;

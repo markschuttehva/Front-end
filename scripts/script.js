@@ -114,14 +114,19 @@ function secondnav() {
 		tweede.style.top = "0";
 	}
 }
-
 window.addEventListener('scroll', secondnav);
 
 /* search */
+let page = document.querySelector(".searchpage"); // searchonderdeel
+let zoeken = document.querySelector(".search"); //button zoeken voor openen opage
+let x = document.querySelector(".x"); //button x voor sluiten page
 
-let search = document.querySelector(".search");
-search.addEventListener("click", zoek);
+zoeken.addEventListener('click', function() {
+	console.log("open");
+	page.style.display = "block";
+});
 
-function zoek() {
-	
-}
+x.addEventListener('click', function() {
+	console.log("close");
+	page.style.display = "none";
+});
